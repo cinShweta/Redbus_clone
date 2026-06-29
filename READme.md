@@ -15,7 +15,7 @@ This is my first web development project built as part of my B.Tech CSE studies.
 - **Why Choose Us Section** - Features highlighting the platform benefits (2000+ buses, secure payment, etc.)
 - **Responsive Design** - Beautiful UI with custom styling and interactive buttons
 
-## 📁 Project Structure
+## 📁 Project Structure 
 
 ```
 ├── index.html       # Main landing page
