@@ -33,5 +33,219 @@ p{
     font-size:22px;
     font-family:arial;
 }
+.logo{
+    width:100px;
+    height:auto;
+    display:block;
+    margin:20px auto;
+    background-color:red;
+}
+button{
+    background-color:red;
+    color:white;
+    font-size:20px;
+    padding:15px 35px;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+    transition:all 0.3s ease;
+}
+    button:hover{
+        background-color:darkred;
+        transform:scale(1.05);
+    }
+nav{
+    background-color:yellow;
+    padding:10px;
+    text-align:center;
+    border-radius:10px;
+    margin-bottom:30px;
+}
+nav a{
+    display:inline-block;
+    color:black;
+    text-decoration:none;
+    margin:0 40px;
+    font-size:18px;
+    font-family:arial,sans-serif;
+}
+nav a:hover{
+    color:red;
+}
+.search-box{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    align-items:end;
+    margin-bottom:30px;
+}
+.search-box input[type="text"]{
+    padding:10px;
+    width:180px;
+    border:2px solid lightgray;
+    border-radius:5px 0 0 5px;
+    outline:none;
+}
+.search-box input[type="date"]{
+    padding:10px;
+    width:180px;
+    border:2px solid lightgray;
+    border-radius:0 5px 5px 0;
+    outline:none;
+}
+.routes{
+    width:50%;
+    margin:40px auto;
+    
+    
+}
+.route-card{
+    background-color:lightblue;
+    padding:20px;
+    margin-bottom:20px;
+    font-size:22px;
+    cursor:pointer;
+    border:2px solid lightgray;
+    border-radius:10px;
+    
+}
+.title{
+    text-align:center;
+    margin:40px 0 20px;
+}
 
+.offers{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.offer-card{
+    width:220px;
+    background:white;
+    border:2px solid red;
+    border-radius:12px;
+    padding:20px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.offer-card:hover{
+    transform:scale(1.05);
+    background:#fff5f5;
+}
+.features{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin:40px 0;
+}
+
+.feature-card{
+    width:250px;
+    padding:20px;
+    background:#fff7f7;
+    border:2px solid #ff4d4d;
+    border-radius:12px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.feature-card h3{
+    color:red;
+    margin-bottom:10px;
+}
+
+.feature-card p{
+    color:#555;
+}
+.reviews{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin:30px 0;
+}
+
+.review-card{
+    width:250px;
+    padding:20px;
+    background:white;
+    border:2px solid lightgray;
+    border-radius:12px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.review-card:hover{
+    transform:scale(1.05);
+    box-shadow:0 5px 15px lightgray;
+}
+.contact{
+    text-align:center;
+    background:white;
+    width:400px;
+    min-height:200px;
+    margin:30px auto;
+    padding:20px;
+    border-radius:12px;
+    border:2px solid lightgray;
+}
+
+.contact p{
+    font-size:20px;
+    margin:18px 0;
+}
+footer{
+    background-color:#d84a4a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+    font-size:18px;
+}
+.about{
+    width:60%;
+    margin:100px auto;
+    background:white;
+    text-align:center;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 0 15px lightgray;
+}
+
+.about h1{
+    color:#d84a4a;
+    font-size:45px;
+}
+
+.about h2{
+    margin:15px 0;
+}
+
+.about p{
+    font-size:20px;
+    margin:15px 0;
+}
+
+.about button{
+    background:#d84a4a;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:10px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.about button:hover{
+    background:darkred;
+}
 }
